@@ -34,6 +34,8 @@ def partition(Arr, start, end):
                 Arr[partitionIndex], Arr[i] = Arr[i], Arr[partitionIndex]
             partitionIndex += 1
     Arr[partitionIndex], Arr[end] = Arr[end], Arr[partitionIndex]
+    print(Arr)
+    print(partitionIndex)
     return partitionIndex 
 
 def Quick_sort(Arr, start, end):
@@ -47,24 +49,24 @@ def Quick_sort(Arr, start, end):
     #print(Arr)
 
 
-Arr1=[12,3,2,8,4,7, 13,16,1,20,19,23,70,27,30,33]
+#Arr1=[12,3,2,8,4,7, 13,16,1,20,19,23,70,27,30,33]
 
 A=[7,2,1,6,8,5,3,4]
 
-AC=[7,6,5,4,3,2,1,0]
+#AC=[7,6,5,4,3,2,1,0]
 
 #A=
 #Quick_sort(A, 0, len(A)-1)
 
-Quick_sort(Arr1, 0, len(Arr1)-1)
+#Quick_sort(Arr1, 0, len(Arr1)-1)
 
 Quick_sort(A, 0, len(A)-1)
 
-Quick_sort(AC, 0, len(AC)-1)
+#Quick_sort(AC, 0, len(AC)-1)
 
-print(Arr1)
+#print(Arr1)
 print(A)
-print(AC)
+#print(AC)
 
 
 
